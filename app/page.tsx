@@ -207,6 +207,26 @@ export default function Home() {
             </Flex>
           </Flex>
         </Section>
+
+        <Section px="8" pt="8" pb="0">
+          <Heading size="3">EDUCATION</Heading>
+
+          <Flex direction="column" pt="2" pl="4" gap="3">
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                - 충남대학교
+              </Text>
+              <Separator orientation="vertical" color="gray" />
+              <Text size="2" weight="medium">
+                지역환경토목학과(주) / 컴퓨터융합학과(부)
+              </Text>
+              <Separator orientation="vertical" color="gray" />
+              <Text size="2" weight="medium">
+                2017.3 - 2024.3 (예정)
+              </Text>
+            </Flex>
+          </Flex>
+        </Section>
       </Container>
     </main>
   );
