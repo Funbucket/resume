@@ -3,18 +3,28 @@ import { Badge, Button, Container, Flex, Heading, Link, Section, Separator, Text
 export default function Home() {
   return (
     <main>
-      <Container size="2">
-        <Section px="8" pb="0">
+      <Container size="2" py="9">
+        <Section px="8" py="0">
           <Flex direction="column" align="center">
             <Container pb="1">
               <Heading size="5">조해창</Heading>
             </Container>
 
-            <Container pb="4">
+            <Container py="0">
               <Heading size="3" color="gray">
                 데이터 분석가
               </Heading>
             </Container>
+
+            <Flex pb="4" align="center" gap="2">
+              <Link color="gray" target="_blank" href="mailto:outofchng@gmail.com">
+                <Text size="2">Email</Text>
+              </Link>
+              <Separator orientation="vertical" color="gray" />
+              <Link color="gray" target="_blank" href="https://github.com/Funbucket">
+                <Text size="2">Github</Text>
+              </Link>
+            </Flex>
 
             <Text size="2">
               사회적 가치를 창출하는 서비스가 성장할 수 있는 세상을 만들어 모든 사람이 차별 없이 편리함을 누리는 것을
@@ -75,46 +85,80 @@ export default function Home() {
           <Heading size="3">WORK EXPERIENCE</Heading>
 
           <Flex direction="column" pt="2" pl="4" gap="3">
-            <Flex align="center" gap="2">
-              <Text size="2" weight="medium">
-                - Intern at KAIST DxD Lab
-              </Text>
-              <Separator orientation="vertical" color="gray" />
-              <Text size="2" weight="medium">
-                데이터 수집 및 시각화
-              </Text>
-              <Separator orientation="vertical" color="gray" />
-              <Text size="2" weight="medium">
-                2023.9 - 2023.11
-              </Text>
+            <Flex direction="column" pt="1">
+              <Flex align="center" gap="2">
+                <Text size="2" weight="medium">
+                  - Intern at KAIST DxD Lab
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="2" weight="medium">
+                  데이터 수집 및 시각화
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="2" weight="medium">
+                  2023.9 - 2023.11
+                </Text>
+              </Flex>
+
+              <Flex direction="column" pl="3">
+                <Link target="_blank" href="https://ouchc.notion.site/b93fd109a7f444c3b194d869d51c8ccc?pvs=4">
+                  <Text size="2" weight="medium" color="gray">
+                    - ‘웨딩, 바디프로필을 찍는 사람의 몸에 대한 관념 연구’를 위한 관련 데이터 수집 및 분석
+                  </Text>
+                </Link>
+              </Flex>
             </Flex>
 
-            <Flex align="center" gap="2">
-              <Text size="2" weight="medium">
-                - Intern at TOVDATA
-              </Text>
-              <Separator orientation="vertical" color="gray" />
-              <Text size="2" weight="medium">
-                UX Research
-              </Text>
-              <Separator orientation="vertical" color="gray" />
-              <Text size="2" weight="medium">
-                2023.6 - 2023.9
-              </Text>
+            <Flex direction="column" pt="1">
+              <Flex align="center" gap="2">
+                <Text size="2" weight="medium">
+                  - Intern at TOVDATA
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="2" weight="medium">
+                  UX Research
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="2" weight="medium">
+                  2023.6 - 2023.9
+                </Text>
+              </Flex>
+
+              <Flex direction="column" pl="3">
+                <Link target="_blank" href="https://ouchc.notion.site/UX-abb483fedc3346fbae82a79b844cd4e9?pvs=4">
+                  <Text size="2" weight="medium" color="gray">
+                    - 개인정보 관련 문서 관리 서비스 Plip의 사용성 개선 및 유료화를 위한 사용자 연구 진행
+                  </Text>
+                </Link>
+              </Flex>
             </Flex>
 
-            <Flex align="center" gap="2">
-              <Text size="2" weight="medium">
-                - Intern at TOVDATA
-              </Text>
-              <Separator orientation="vertical" color="gray" />
-              <Text size="2" weight="medium">
-                프론트엔드 개발
-              </Text>
-              <Separator orientation="vertical" color="gray" />
-              <Text size="2" weight="medium">
-                2023.3 - 2023.6
-              </Text>
+            <Flex direction="column" pt="1">
+              <Flex align="center" gap="2">
+                <Text size="2" weight="medium">
+                  - Intern at TOVDATA
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="2" weight="medium">
+                  프론트엔드 개발
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="2" weight="medium">
+                  2023.3 - 2023.6
+                </Text>
+              </Flex>
+
+              <Flex direction="column" pl="3">
+                <Link target="_blank" href="http://tovdata.com/doc/PrivacyDAM%20Manager%20guide.pdf">
+                  <Text size="2" weight="medium" color="gray">
+                    - PrivacyDam 서비스를 위한 프론트엔드 작업
+                  </Text>
+                </Link>
+
+                <Text size="2" weight="medium" color="gray">
+                  - 기존 프론트엔드의 Atomic 구조에 DDD를 도입
+                </Text>
+              </Flex>
             </Flex>
           </Flex>
         </Section>
