@@ -69,7 +69,7 @@ export default function Home() {
           <Flex direction="column" pt="2" pl="4" gap="5">
             <Flex direction="column" gap="2">
               <Text size="1" weight="medium">
-                온라인 중고책의 다나와를 위한 여정, 싸다알라딘 사용자 행동 분석 및 유입 채널 분석
+                - 온라인 중고책의 다나와를 위한 여정, 싸다알라딘 사용자 행동 분석 및 유입 채널 분석
               </Text>
 
               <Link target="_blank" href="https://ouchc.notion.site/afa09a5a74164e13ad494eb846dd5fe4?pvs=4">
@@ -81,7 +81,7 @@ export default function Home() {
 
             <Flex direction="column" gap="2">
               <Text size="1" weight="medium">
-                친구 수 2300명, DAU 300명 츠누봇의 성장 스토리
+                - 친구 수 2300명, DAU 300명 츠누봇의 성장 스토리
               </Text>
               <Link target="_blank" href="https://ouchc.notion.site/5bb7a59f344b4502986e038ab48a8b0f?pvs=4">
                 <Button color="gray" size="1">
@@ -99,6 +99,9 @@ export default function Home() {
             <Flex direction="column" pt="1">
               <Flex align="center" gap="2">
                 <Text size="1" weight="medium">
+                  -
+                </Text>
+                <Text size="1" weight="medium">
                   Intern at KAIST DxD Lab
                 </Text>
                 <Separator orientation="vertical" color="gray" />
@@ -114,7 +117,7 @@ export default function Home() {
               <Flex direction="column" pl="3" gap="2">
                 <Link target="_blank" href="https://ouchc.notion.site/b93fd109a7f444c3b194d869d51c8ccc?pvs=4">
                   <Text as="p" size="1" weight="medium" color="gray">
-                    • 웨딩, 바디프로필을 찍는 사람이 커뮤니티에서 얻는 왜곡된 인지 현상을 분석하기 위한 비정형 데이터
+                    - 웨딩, 바디프로필을 찍는 사람이 커뮤니티에서 얻는 왜곡된 인지 현상을 분석하기 위한 비정형 데이터
                     수집 및 분석
                   </Text>
                 </Link>
@@ -123,6 +126,9 @@ export default function Home() {
 
             <Flex direction="column" pt="1">
               <Flex align="center" gap="2">
+                <Text size="1" weight="medium">
+                  -
+                </Text>
                 <Text size="1" weight="medium">
                   Intern at TOVDATA
                 </Text>
@@ -139,7 +145,7 @@ export default function Home() {
               <Flex direction="column" pl="3" gap="2">
                 <Link target="_blank" href="https://ouchc.notion.site/UX-abb483fedc3346fbae82a79b844cd4e9?pvs=4">
                   <Text as="p" size="1" weight="medium" color="gray">
-                    • 개인정보 관련 문서 관리 서비스 Plip의 새로운 유료화 지점 도출을 위한 정성적 데이터 수집
+                    - 개인정보 관련 문서 관리 서비스 Plip의 새로운 유료화 지점 도출을 위한 정성적 데이터 수집
                   </Text>
                 </Link>
               </Flex>
@@ -147,6 +153,9 @@ export default function Home() {
 
             <Flex direction="column" pt="1">
               <Flex align="center" gap="2">
+                <Text size="1" weight="medium">
+                  -
+                </Text>
                 <Text size="1" weight="medium">
                   Intern at TOVDATA
                 </Text>
@@ -163,12 +172,12 @@ export default function Home() {
               <Flex direction="column" pl="3" gap="2">
                 <Link target="_blank" href="http://tovdata.com/doc/PrivacyDAM%20Manager%20guide.pdf">
                   <Text as="p" size="1" weight="medium" color="gray">
-                    • PrivacyDam 서비스를 위한 프론트엔드 단독 작업
+                    - PrivacyDam 서비스를 위한 프론트엔드 단독 작업
                   </Text>
                 </Link>
 
                 <Text as="p" size="1" weight="medium" color="gray">
-                  • 기존 프론트엔드의 Atomic 구조에서 DX 개선을 위해 DDD를 도입
+                  - 기존 프론트엔드의 Atomic 구조에서 DX 개선을 위해 DDD를 도입
                 </Text>
               </Flex>
             </Flex>
@@ -180,6 +189,9 @@ export default function Home() {
 
           <Flex direction="column" pt="2" pl="4" gap="5">
             <Flex align="center" gap="2">
+              <Text size="1" weight="medium">
+                -
+              </Text>
               <Text size="1" weight="medium">
                 SW 교양 과목
               </Text>
@@ -194,6 +206,9 @@ export default function Home() {
             </Flex>
 
             <Flex align="center" gap="2">
+              <Text size="1" weight="medium">
+                -
+              </Text>
               <Text size="1" weight="medium">
                 SW 교양 과목
               </Text>
