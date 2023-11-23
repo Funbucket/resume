@@ -26,11 +26,21 @@ export default function Home() {
               </Link>
             </Flex>
 
-            <Text size="1">
-              사회적 가치를 창출하는 서비스가 성장할 수 있는 세상을 만들어 모든 사람이 차별 없이 편리함을 누리는 것을
-              꿈꾸고 있습니다. 사용자가 남긴 데이터를 통해 사용자의 마음을 읽어, 편리하고 즐겁게 사용할 수 있는 서비스를
-              만들고자 합니다. 데이터를 통해 서비스가 해당 분야의 최고 서비스가 될 수 있는 성장 전략을 수립합니다.
-            </Text>
+            <Flex direction="column" gap="1">
+              <Text size="1">
+                사회적 가치를 창출하는 서비스가 성장할 수 있는 세상을 만들어 모든 사람이 차별 없이 편리함을 누리는 것을
+                꿈꾸고 있습니다.
+              </Text>
+
+              <Text size="1">
+                • 사용자가 남긴 데이터를 통해 사용자의 마음을 읽어, 편리하고 즐겁게 사용할 수 있는 서비스를 만들고자
+                합니다.
+              </Text>
+
+              <Text size="1">
+                • 데이터를 통해 서비스가 해당 분야의 최고 서비스가 될 수 있는 성장 전략을 수립합니다.
+              </Text>
+            </Flex>
           </Flex>
         </Section>
 
@@ -56,10 +66,10 @@ export default function Home() {
         <Section px="8" pt="8" pb="0">
           <Heading size="2">PROJECTS</Heading>
 
-          <Flex direction="column" pt="2" pl="4" gap="3">
+          <Flex direction="column" pt="2" pl="4" gap="5">
             <Flex direction="column" gap="2">
               <Text size="1" weight="medium">
-                - 온라인 중고책의 다나와를 위한 여정, 싸다알라딘 사용자 행동 분석 및 유입 채널 분석
+                온라인 중고책의 다나와를 위한 여정, 싸다알라딘 사용자 행동 분석 및 유입 채널 분석
               </Text>
 
               <Link target="_blank" href="https://ouchc.notion.site/afa09a5a74164e13ad494eb846dd5fe4?pvs=4">
@@ -71,7 +81,7 @@ export default function Home() {
 
             <Flex direction="column" gap="2">
               <Text size="1" weight="medium">
-                - 친구 수 2300명, DAU 300명 츠누봇의 성장 스토리
+                친구 수 2300명, DAU 300명 츠누봇의 성장 스토리
               </Text>
               <Link target="_blank" href="https://ouchc.notion.site/5bb7a59f344b4502986e038ab48a8b0f?pvs=4">
                 <Button color="gray" size="1">
@@ -85,11 +95,11 @@ export default function Home() {
         <Section px="8" pt="8" pb="0">
           <Heading size="2">WORK EXPERIENCE</Heading>
 
-          <Flex direction="column" pt="2" pl="4" gap="3">
+          <Flex direction="column" pt="2" pl="4" gap="5">
             <Flex direction="column" pt="1">
               <Flex align="center" gap="2">
                 <Text size="1" weight="medium">
-                  - Intern at KAIST DxD Lab
+                  Intern at KAIST DxD Lab
                 </Text>
                 <Separator orientation="vertical" color="gray" />
                 <Text size="1" weight="medium">
@@ -101,10 +111,10 @@ export default function Home() {
                 </Text>
               </Flex>
 
-              <Flex direction="column" pl="3">
+              <Flex direction="column" pl="3" gap="2">
                 <Link target="_blank" href="https://ouchc.notion.site/b93fd109a7f444c3b194d869d51c8ccc?pvs=4">
                   <Text as="p" size="1" weight="medium" color="gray">
-                    - 웨딩, 바디프로필을 찍는 사람이 커뮤니티에서 얻는 왜곡된 인지 현상을 분석하기 위한 비정형 데이터
+                    • 웨딩, 바디프로필을 찍는 사람이 커뮤니티에서 얻는 왜곡된 인지 현상을 분석하기 위한 비정형 데이터
                     수집 및 분석
                   </Text>
                 </Link>
@@ -114,7 +124,7 @@ export default function Home() {
             <Flex direction="column" pt="1">
               <Flex align="center" gap="2">
                 <Text size="1" weight="medium">
-                  - Intern at TOVDATA
+                  Intern at TOVDATA
                 </Text>
                 <Separator orientation="vertical" color="gray" />
                 <Text size="1" weight="medium">
@@ -126,10 +136,10 @@ export default function Home() {
                 </Text>
               </Flex>
 
-              <Flex direction="column" pl="3">
+              <Flex direction="column" pl="3" gap="2">
                 <Link target="_blank" href="https://ouchc.notion.site/UX-abb483fedc3346fbae82a79b844cd4e9?pvs=4">
                   <Text as="p" size="1" weight="medium" color="gray">
-                    - 개인정보 관련 문서 관리 서비스 Plip의 새로운 유료화 지점 도출을 위한 정성적 데이터 수집
+                    • 개인정보 관련 문서 관리 서비스 Plip의 새로운 유료화 지점 도출을 위한 정성적 데이터 수집
                   </Text>
                 </Link>
               </Flex>
@@ -138,7 +148,7 @@ export default function Home() {
             <Flex direction="column" pt="1">
               <Flex align="center" gap="2">
                 <Text size="1" weight="medium">
-                  - Intern at TOVDATA
+                  Intern at TOVDATA
                 </Text>
                 <Separator orientation="vertical" color="gray" />
                 <Text size="1" weight="medium">
@@ -150,15 +160,15 @@ export default function Home() {
                 </Text>
               </Flex>
 
-              <Flex direction="column" pl="3">
+              <Flex direction="column" pl="3" gap="2">
                 <Link target="_blank" href="http://tovdata.com/doc/PrivacyDAM%20Manager%20guide.pdf">
                   <Text as="p" size="1" weight="medium" color="gray">
-                    - PrivacyDam 서비스를 위한 프론트엔드 단독 작업
+                    • PrivacyDam 서비스를 위한 프론트엔드 단독 작업
                   </Text>
                 </Link>
 
                 <Text as="p" size="1" weight="medium" color="gray">
-                  - 기존 프론트엔드의 Atomic 구조에서 DX 개선을 위해 DDD를 도입
+                  • 기존 프론트엔드의 Atomic 구조에서 DX 개선을 위해 DDD를 도입
                 </Text>
               </Flex>
             </Flex>
@@ -168,10 +178,10 @@ export default function Home() {
         <Section px="8" pt="8" pb="0">
           <Heading size="2">TEACHING EXPERIENCE</Heading>
 
-          <Flex direction="column" pt="2" pl="4" gap="3">
+          <Flex direction="column" pt="2" pl="4" gap="5">
             <Flex align="center" gap="2">
               <Text size="1" weight="medium">
-                - SW 교양 과목
+                SW 교양 과목
               </Text>
               <Separator orientation="vertical" color="gray" />
               <Text size="1" weight="medium">
@@ -185,7 +195,7 @@ export default function Home() {
 
             <Flex align="center" gap="2">
               <Text size="1" weight="medium">
-                - SW 교양 과목
+                SW 교양 과목
               </Text>
               <Separator orientation="vertical" color="gray" />
               <Text size="1" weight="medium">
