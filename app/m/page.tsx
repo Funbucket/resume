@@ -44,7 +44,7 @@ export default function Home() {
           </Flex>
         </Section>
 
-        <Section px="8" pb="0">
+        <Section px="8" pt="9" pb="0">
           <Heading size="2">SKILL</Heading>
 
           <Flex pt="2" pl="4" gap="2">
