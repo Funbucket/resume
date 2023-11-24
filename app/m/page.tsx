@@ -84,8 +84,12 @@ export default function Home() {
                 - 온라인 중고책의 다나와를 위한 여정, 싸다알라딘 사용자 행동 분석 및 유입 채널 분석
               </Text>
 
-              <Link target="_blank" href="https://ouchc.notion.site/afa09a5a74164e13ad494eb846dd5fe4?pvs=4">
-                <Button id="cheapestAladin-detail" color="gray" size="1">
+              <Link
+                id="cheapestAladin-detail"
+                target="_blank"
+                href="https://ouchc.notion.site/afa09a5a74164e13ad494eb846dd5fe4?pvs=4"
+              >
+                <Button color="gray" size="1">
                   자세히 보기
                 </Button>
               </Link>
@@ -95,8 +99,12 @@ export default function Home() {
               <Text size="1" weight="medium">
                 - 친구 수 2300명, DAU 300명 츠누봇의 성장 스토리
               </Text>
-              <Link target="_blank" href="https://ouchc.notion.site/5bb7a59f344b4502986e038ab48a8b0f?pvs=4">
-                <Button id="cnubot-detail" color="gray" size="1">
+              <Link
+                id="cnubot-detail"
+                target="_blank"
+                href="https://ouchc.notion.site/5bb7a59f344b4502986e038ab48a8b0f?pvs=4"
+              >
+                <Button color="gray" size="1">
                   자세히 보기
                 </Button>
               </Link>
