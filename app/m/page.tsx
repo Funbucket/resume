@@ -28,8 +28,7 @@ export default function Home() {
 
             <Flex direction="column" gap="1">
               <Text size="1">
-                사회적 가치를 창출하는 서비스가 성장할 수 있는 세상을 만들어 모든 사람이 차별 없이 편리함을 누리는 것을
-                꿈꾸고 있습니다.
+                저는 데이터를 통해 제품을 개선하고 더 나은 사용자 경험을 제공할 수 있다는 강력한 믿음을 가지고 있습니다.
               </Text>
 
               <Text size="1">
