@@ -47,19 +47,90 @@ export default function Home() {
         <Section px="8" pb="0">
           <Heading size="3">SKILL</Heading>
 
-          <Flex pt="2" pl="4" gap="2">
-            <Badge color="gray" variant="outline">
-              GA4
-            </Badge>
-            <Badge color="gray" variant="outline">
-              SQL
-            </Badge>
-            <Badge color="gray" variant="outline">
-              BigQuery
-            </Badge>
-            <Badge color="gray" variant="outline">
-              Python
-            </Badge>
+          <Flex direction="column" pt="2" pl="4" gap="2">
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                -
+              </Text>
+              <Badge color="gray" variant="outline">
+                GA4
+              </Badge>
+              <Text size="2" weight="medium">
+                를 사용하여 AARRR 지표를 중심으로 서비스를 분석한 경험이 있습니다.
+              </Text>
+            </Flex>
+
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                -
+              </Text>
+              <Badge color="gray" variant="outline">
+                GTM
+              </Badge>
+              <Text size="2" weight="medium">
+                을 사용하여 서비스의 이벤트를 로깅한 경험이 있습니다.
+              </Text>
+            </Flex>
+
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                -
+              </Text>
+              <Badge color="gray" variant="outline">
+                BigQuery
+              </Badge>
+              <Text size="2" weight="medium">
+                에서
+              </Text>
+              <Badge color="gray" variant="outline">
+                SQL
+              </Badge>
+              <Text size="2" weight="medium">
+                을 이용하여 서비스에서 사용자의 데이터를 추출한 경험이 있습니다.
+              </Text>
+            </Flex>
+
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                -
+              </Text>
+              <Badge color="gray" variant="outline">
+                HTML
+              </Badge>
+              <Text size="2" weight="medium">
+                에 익숙하여
+              </Text>
+              <Badge color="gray" variant="outline">
+                Crawling
+              </Badge>
+              <Text size="2" weight="medium">
+                을 통한 데이터 수집에 매우 익숙합니다.
+              </Text>
+            </Flex>
+
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                -
+              </Text>
+              <Badge color="gray" variant="outline">
+                Database
+              </Badge>
+              <Text size="2" weight="medium">
+                개념적 설계부터 구축을 한 경험이 있습니다.
+              </Text>
+            </Flex>
+
+            <Flex align="center" gap="2">
+              <Text size="2" weight="medium">
+                -
+              </Text>
+              <Badge color="gray" variant="outline">
+                Python
+              </Badge>
+              <Text size="2" weight="medium">
+                을 이용하여 실제 서비스를 배포한 경험과 비정형 데이터 분석 경험이 있습니다.
+              </Text>
+            </Flex>
           </Flex>
         </Section>
 

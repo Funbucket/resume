@@ -1,4 +1,4 @@
-import { Badge, Button, Container, Flex, Heading, Link, Section, Separator, Text } from "@radix-ui/themes";
+import { Badge, Button, Container, Flex, Heading, Link, Section, Separator, Strong, Text } from "@radix-ui/themes";
 
 export default function Home() {
   return (
@@ -47,19 +47,31 @@ export default function Home() {
         <Section px="8" pt="9" pb="0">
           <Heading size="2">SKILL</Heading>
 
-          <Flex pt="2" pl="4" gap="2">
-            <Badge color="gray" variant="outline">
-              GA4
-            </Badge>
-            <Badge color="gray" variant="outline">
-              SQL
-            </Badge>
-            <Badge color="gray" variant="outline">
-              BigQuery
-            </Badge>
-            <Badge color="gray" variant="outline">
-              Python
-            </Badge>
+          <Flex direction="column" pt="2" pl="4" gap="2">
+            <Text size="1" weight="medium">
+              - <Strong>GA4</Strong>를 사용하여 AARRR 지표를 중심으로 서비스를 분석한 경험이 있습니다.
+            </Text>
+
+            <Text size="1" weight="medium">
+              - <Strong>GTM</Strong>을 사용하여 서비스의 이벤트를 로깅한 경험이 있습니다.
+            </Text>
+
+            <Text size="1" weight="medium">
+              - <Strong>BigQuery</Strong>에서 <Strong>SQL</Strong>을 이용하여 서비스에서 사용자의 데이터를 추출한 경험이
+              있습니다.
+            </Text>
+
+            <Text size="1" weight="medium">
+              - <Strong>HTML</Strong>에 익숙하여 <Strong>Crawling</Strong>을 통한 데이터 수집에 매우 익숙합니다.
+            </Text>
+
+            <Text size="1" weight="medium">
+              - <Strong>Database</Strong> 개념적 설계부터 구축을 한 경험이 있습니다.
+            </Text>
+
+            <Text size="1" weight="medium">
+              - <Strong>Python</Strong>을 이용하여 실제 서비스를 배포한 경험과 비정형 데이터 분석 경험이 있습니다.
+            </Text>
           </Flex>
         </Section>
 
