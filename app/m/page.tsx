@@ -53,7 +53,7 @@ export default function Home() {
             </Text>
 
             <Text size="1" weight="medium">
-              - <Strong>GTM</Strong>을 사용하여 서비스의 이벤트를 로깅한 경험이 있습니다.
+              - <Strong>GTM</Strong>을 사용하여 서비스의 이벤트를 심어 로깅한 경험이 있습니다.
             </Text>
 
             <Text size="1" weight="medium">

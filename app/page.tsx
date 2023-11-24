@@ -68,7 +68,7 @@ export default function Home() {
                 GTM
               </Badge>
               <Text size="2" weight="medium">
-                을 사용하여 서비스의 이벤트를 로깅한 경험이 있습니다.
+                을 사용하여 서비스의 이벤트를 심어 로깅한 경험이 있습니다.
               </Text>
             </Flex>
 
