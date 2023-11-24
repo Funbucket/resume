@@ -144,7 +144,7 @@ export default function Home() {
               </Text>
 
               <Link target="_blank" href="https://ouchc.notion.site/afa09a5a74164e13ad494eb846dd5fe4?pvs=4">
-                <Button color="gray" size="1">
+                <Button id="cheapestAladin-detail" color="gray" size="1">
                   자세히 보기
                 </Button>
               </Link>
@@ -154,7 +154,7 @@ export default function Home() {
                 - 친구 수 2300명, DAU 300명 츠누봇의 성장 스토리
               </Text>
               <Link target="_blank" href="https://ouchc.notion.site/5bb7a59f344b4502986e038ab48a8b0f?pvs=4">
-                <Button color="gray" size="1">
+                <Button id="cnubot-detail" color="gray" size="1">
                   자세히 보기
                 </Button>
               </Link>
