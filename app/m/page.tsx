@@ -57,8 +57,8 @@ export default function Home() {
             </Text>
 
             <Text size="1" weight="medium">
-              - <Strong>BigQuery</Strong>에서 <Strong>SQL</Strong>을 이용하여 서비스에서 사용자의 데이터를 추출한 경험이
-              있습니다.
+              - GA4와 연동된 <Strong>BigQuery</Strong>에서 <Strong>SQL</Strong>을 이용하여 서비스에서 데이터를 추출한
+              경험이 있습니다.
             </Text>
 
             <Text size="1" weight="medium">

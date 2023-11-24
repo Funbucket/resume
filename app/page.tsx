@@ -86,7 +86,7 @@ export default function Home() {
                 SQL
               </Badge>
               <Text size="2" weight="medium">
-                을 이용하여 서비스에서 사용자의 데이터를 추출한 경험이 있습니다.
+                을 이용하여 서비스의 데이터를 추출한 경험이 있습니다.
               </Text>
             </Flex>
 
