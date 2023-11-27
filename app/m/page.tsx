@@ -244,6 +244,78 @@ export default function Home() {
         </Section>
 
         <Section px="8" pt="8" pb="0">
+          <Heading size="3">AWARDS & MEDIA</Heading>
+
+          <Flex direction="column" pt="2" pl="4" gap="5">
+            <Flex direction="column" pt="1">
+              <Flex align="center" gap="2">
+                <Text size="1" weight="medium">
+                  - 2023 CNU SW/AI 프로젝트 페어
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="1" weight="medium">
+                  우수상
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="1" weight="medium">
+                  2023.6
+                </Text>
+              </Flex>
+
+              <Flex direction="column" pl="3">
+                <Text size="1" weight="medium" color="gray">
+                  - 학교 내 인물 및 풍경 사진 거래를 위한 모바일 DAPP ‘유니픽쳐’
+                </Text>
+              </Flex>
+            </Flex>
+
+            <Flex direction="column" pt="1">
+              <Flex align="center" gap="2">
+                <Text size="1" weight="medium">
+                  - SOGRA Hackathon
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="1" weight="medium">
+                  최우수상
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="1" weight="medium">
+                  2023.4
+                </Text>
+              </Flex>
+
+              <Flex direction="column" pl="3">
+                <Text size="1" weight="medium" color="gray">
+                  - 가족 건강지킴이 모바일 앱 ‘가가호호’
+                </Text>
+              </Flex>
+            </Flex>
+
+            <Flex direction="column" pt="1">
+              <Flex align="center" gap="2">
+                <Text size="1" weight="medium">
+                  - 충대신문방송사
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="1" weight="medium">
+                  종합보도
+                </Text>
+                <Separator orientation="vertical" color="gray" />
+                <Text size="1" weight="medium">
+                  2021.4
+                </Text>
+              </Flex>
+
+              <Flex direction="column" pl="3">
+                <Text size="1" weight="medium" color="gray">
+                  - 학교 정보 알리미 챗봇 ‘츠누봇’
+                </Text>
+              </Flex>
+            </Flex>
+          </Flex>
+        </Section>
+
+        <Section px="8" pt="8" pb="0">
           <Heading size="2">EDUCATION</Heading>
 
           <Flex direction="column" pt="2" pl="4" gap="5">
