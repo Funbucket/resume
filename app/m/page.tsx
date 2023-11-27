@@ -37,7 +37,7 @@ export default function Home() {
               </Text>
 
               <Text size="1">
-                • 데이터를 통해 서비스가 해당 분야의 최고 서비스가 될 수 있는 성장 전략을 수립합니다.
+                • 데이터를 통해 서비스가 해당 분야의 최고 서비스가 될 수 있는 성장 전략을 고민합니다.
               </Text>
             </Flex>
           </Flex>
