@@ -70,8 +70,7 @@ export default function Home() {
             </Text>
 
             <Text size="1" weight="medium">
-              - <Strong>FastAPI</Strong>와 <Strong>AWS EC2</Strong>를 이용하여 실제 서비스를 배포한 경험과 비정형 데이터
-              분석 경험이 있습니다.
+              - <Strong>FastAPI</Strong>와 <Strong>AWS EC2</Strong>를 이용하여 실제 서비스를 배포한 경험이 있습니다.
             </Text>
           </Flex>
         </Section>
