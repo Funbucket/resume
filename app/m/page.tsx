@@ -61,7 +61,8 @@ export default function Home() {
             </Text>
 
             <Text size="1" weight="medium">
-              - <Strong>HTML</Strong>에 익숙하여 <Strong>Crawling</Strong>을 통한 데이터 수집에 매우 익숙합니다.
+              - <Strong>HTML</Strong>에 익숙하여 <Strong>Crawling</Strong>을 통한 비정형 데이터 수집과 시각화에 매우
+              익숙합니다.
             </Text>
 
             <Text size="1" weight="medium">
@@ -69,7 +70,8 @@ export default function Home() {
             </Text>
 
             <Text size="1" weight="medium">
-              - <Strong>Python</Strong>을 이용하여 실제 서비스를 배포한 경험과 비정형 데이터 분석 경험이 있습니다.
+              - <Strong>FastAPI</Strong>와 <Strong>AWS EC2</Strong>를 이용하여 실제 서비스를 배포한 경험과 비정형 데이터
+              분석 경험이 있습니다.
             </Text>
           </Flex>
         </Section>

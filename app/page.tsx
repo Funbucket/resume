@@ -103,7 +103,7 @@ export default function Home() {
                 Crawling
               </Badge>
               <Text size="2" weight="medium">
-                을 통한 데이터 수집에 매우 익숙합니다.
+                을 통한 비정형 데이터 수집과 시각화에 매우 익숙합니다.
               </Text>
             </Flex>
 
@@ -124,10 +124,16 @@ export default function Home() {
                 -
               </Text>
               <Badge color="gray" variant="outline">
-                Python
+                FastAPI
               </Badge>
               <Text size="2" weight="medium">
-                을 이용하여 실제 서비스를 배포한 경험과 비정형 데이터 분석 경험이 있습니다.
+                와
+              </Text>
+              <Badge color="gray" variant="outline">
+                AWS EC2
+              </Badge>
+              <Text size="2" weight="medium">
+                를 이용하여 실제 서비스를 배포한 경험이 있습니다.
               </Text>
             </Flex>
           </Flex>
